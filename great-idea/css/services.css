@@ -44,5 +44,19 @@ nav a {
     padding: 10px;
     width: 45%;
     margin: 1%;
+    background-color: lightgray;
 }
 
+button {
+    font-size: 10px;
+    width: 30%;
+    padding: 2%;
+    border: black 1px solid;
+    background-color: white;
+}
+
+/* Final Section */
+
+.final {
+    display: flex;
+}
