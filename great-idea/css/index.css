@@ -73,90 +73,61 @@ body {
 
 /* Header - Navigation and Logo */
 
-.top {
-	//border: 1px black solid;
-}
-
 h1 {
 	font-size: 80px;
 }
 
-.mainHeading {
-	border: black 22px solid;
-	display: inline-block;
-	width: 100%;
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
 nav a {
-	//border: green 2px solid;
-	padding: 5% 2%;
 	color: slategray;
 	text-decoration: none;
-	margin:  5 auto;
-	display: inline-block;
 } 
-
-.logo { 
-	//border: red solid;
-	padding: 0 2%;
-	width: 20%;
-	display: inline-block;
-}
 
 
 /* Home Section */
 
 
 .home {
-	//border: pink 5px solid;
-	display: inline-block;
-	width: 100%;
+	display: flex;
+	justify-content: center, space-around;
+	margin-top: 20%;
+
 }
 
 
 h1 {
-	//border: purple 5px dotted;
 	text-align: center;
-	margin-bottom: 10;
 	width: 50%;
-	display: inline-block;
 }
 
-.circle {
-	width: 40%;
-	display: inline-block;
-}
 
 button {
-	margin-left: 19%;
-	padding: 5, 0;
 	border: black 1px solid;
 	font-size: 15px;
-	
+	flex-direction: wrap;
 }
 
 /* Middle section */
-.middle {
-	display: inline-block;
+.top, .bottom {
 	width: 100%;
-}
-
-.middle .top{
-	width: 100%;
-	display: inline-block;
-}
-
-.features , .about{
-	width: 45%;
-	display: inline-block;
+	display: flex;
+	justify-content: space-around;
 	padding: 5%;
+}
+
+
+/* .features , .about{
+	width: 45%;
 }
 
 .services, .product, .vision {
 	width: 32%;
-	display: inline-block;
-	padding: 5%;
-}
+} */
 
 .banner {
 	width: 100%;
