@@ -6,6 +6,12 @@ body {
 	max-width: 100%;
 }
 
+h5, h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px; 
+    }
+
 /* Header - Navigation and Logo */
 
 h1 {
@@ -22,7 +28,6 @@ nav {
 nav a {
 	color: slategray;
 	text-decoration: none;
-	padding: 5%;
 } 
 
 .logo {
@@ -59,4 +64,13 @@ button {
 
 .final {
     display: flex;
+}
+
+.final section {
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 20%;
 }
