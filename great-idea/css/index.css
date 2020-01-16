@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -49,7 +50,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 10%
 }
 
 html, body {
@@ -68,7 +70,7 @@ h1, h2, h3, h4, h5 {
 /* Page-Wide */
 
 body {
-	padding: 20%;
+	padding: 10%;
 	max-width: 100%;
 }
 
@@ -80,6 +82,7 @@ h1 {
 
 nav {
 	display: flex;
+	font-family: 'Gelasio', serif;
 	align-items: center;
 	justify-content: space-evenly;
 	margin-bottom: 10%;
@@ -88,7 +91,6 @@ nav {
 nav a {
 	color: slategray;
 	text-decoration: none;
-	padding: 5%;
 } 
 
 .logo {
@@ -130,13 +132,13 @@ button {
 	width: 100%;
 }
 
-
+/* 
 /* Lines */
-hr {
+/* hr {
 	width: 100%;
 	height: 1px;
 	margin-top: 20px;
-}
+} */ 
 
 /* Footer */
 footer {
