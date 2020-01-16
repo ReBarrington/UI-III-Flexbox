@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5 {
 
 body {
 	padding: 15%;
+	max-width: 100%;
 }
 
 /* Header - Navigation and Logo */
@@ -94,22 +95,22 @@ nav a {
 
 .home {
 	display: flex;
-	justify-content: center, space-around;
+	justify-content: center;
+	align-content: space-around;
 	margin-top: 20%;
-
 }
 
-
-h1 {
+.left-home {
 	text-align: center;
-	width: 50%;
 }
 
+.cirlce {
+	
+}
 
 button {
 	border: black 1px solid;
-	font-size: 15px;
-	flex-direction: wrap;
+	font-size: 15px;	
 }
 
 /* Middle section */
@@ -120,14 +121,6 @@ button {
 	padding: 5%;
 }
 
-
-/* .features , .about{
-	width: 45%;
-}
-
-.services, .product, .vision {
-	width: 32%;
-} */
 
 .banner {
 	width: 100%;
